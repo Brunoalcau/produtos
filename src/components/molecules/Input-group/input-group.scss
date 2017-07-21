@@ -1,0 +1,12 @@
+@import '../../_variables';
+
+.group {
+    width: 50%;
+    display: flex;
+    position: relative;
+    border: 1px solid $primary-color;
+    border-radius: 4px;
+     &::placeholder {
+            color: $primary-color;
+     }
+}
